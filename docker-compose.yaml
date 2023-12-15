@@ -30,3 +30,5 @@ services:
       - 33060:33060
     environment:
       MYSQL_ROOT_PASSWORD: killjoy
+    volumes:
+      - ./db-backup:/var/lib/mysql
